@@ -86,4 +86,6 @@ jobs:
       with:
         token: ${{ secrets.SECURITY_TOKEN }}
     - name: list files
-      run: ls -la  /home/runner/work/test/test
+      run: |
+        pwd 
+        ls -la 
